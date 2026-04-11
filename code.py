@@ -20,7 +20,7 @@ def Find_max(massiv):
                 max_2 = max_1
                 max_1 = i
         return max_2
-    return max(massiv[0], massiv[1])
+    return min(massiv[0], massiv[1])
 
 #Бинарный поиск
 def Binary_find(massiv, target):
